@@ -8,6 +8,7 @@ import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import MYCV from '../../assets/mycv farah azizi.pdf';
+import MYCV2 from '../../assets/Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 export default function Hero() {
@@ -29,7 +30,7 @@ export default function Hero() {
           <a href="https://github.com/16farahaz">
             <img src={githubIcon} alt="github" />
           </a>
-          <a href="https://linkedin.com/in/farah-azizi">
+          <a href="https://linkedin.com/in/azizi-farah">
             <img src={linkedinIcon} alt="LinkedIn" />
           </a>
         </span>
@@ -41,6 +42,11 @@ A highly skilled and dedicated web developer with a degree in General Computer S
 
         </p>
         <a href={MYCV} download>
+          <button className="hover">
+            Mon CV 
+          </button>
+        </a>
+        <a href={MYCV2} download>
           <button className="hover">
             Resume
           </button>

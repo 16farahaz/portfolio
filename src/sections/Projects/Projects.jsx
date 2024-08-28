@@ -4,6 +4,7 @@ import simo from '../../assets/simo.png';
 import jurse from '../../assets/jurse.png';
 import ProjectCard from '../../common/ProjectCard';
 import freshBurger from '../../assets/fresh-burger.png';
+import auditcamp from '../../assets/AuditCamp.png'
 
 function Projects() {
   return (
@@ -12,6 +13,13 @@ function Projects() {
       <div className={Styles.projectsContainer}>
 
 
+
+      <ProjectCard 
+       src={auditcamp} 
+       link="https://github.com/16farahaz/auditcamp.git"
+       h3="AUDITCAMP" 
+       p="Audit tracking platform"/> 
+       <br />
        <ProjectCard 
        src={amanha} 
        link="https://github.com/16farahaz/ApplicationAmanha.git"
