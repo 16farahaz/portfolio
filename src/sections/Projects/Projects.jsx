@@ -4,7 +4,8 @@ import simo from '../../assets/simo.png';
 import jurse from '../../assets/jurse.png';
 import ProjectCard from '../../common/ProjectCard';
 import freshBurger from '../../assets/fresh-burger.png';
-import auditcamp from '../../assets/AuditCamp.png'
+import auditcamp from '../../assets/AuditCamp.png';
+import letsgo from '../../assets/logo.png';
 
 function Projects() {
   return (
@@ -13,7 +14,12 @@ function Projects() {
       <div className={Styles.projectsContainer}>
 
 
-
+      <ProjectCard 
+       src={letsgo} 
+       link="https://github.com/16farahaz/letsgo.git"
+       h3="LET'S GO" 
+       p="online marketplace for carpooling headquartered in Tunisia"/> 
+       <br />
       <ProjectCard 
        src={auditcamp} 
        link="https://github.com/16farahaz/auditcamp.git"
