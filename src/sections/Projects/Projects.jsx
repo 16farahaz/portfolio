@@ -18,7 +18,7 @@ function Projects() {
        src={letsgo} 
        link="https://github.com/16farahaz/letsgo.git"
        h3="LET'S GO" 
-       p="online marketplace for carpooling headquartered in Tunisia"/> 
+       p="long-distance carpooling platform in Tunisia"/> 
        <br />
       <ProjectCard 
        src={auditcamp} 
